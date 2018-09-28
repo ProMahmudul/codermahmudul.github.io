@@ -1,0 +1,142 @@
+$primary: #EA6660;
+
+.navbar{
+  background: #262626;
+  .NavbrandTitle{
+    font-family: 'reklame_script_demoregular';
+    color: #d9d9d9;
+    font-size: 28px;
+  }
+  .nav-item{
+    margin-right: 30px;
+    .nav-link{
+      color: #d9d9d9;
+      font-family: 'latoblack';
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+    .nav-link:hover{
+      color:$primary;
+    }
+  }
+  .nav-item:last-child{
+    margin-right: 0;
+  }
+}
+
+#home-section{
+  background: #2A2A2A;
+  color: #d9d9d9;
+  font-family: 'MYRIADPROREGULAR';
+  .latofont{
+    font-family: 'latoblack' !important;
+  }
+  p{
+    font-size: 40px;
+  }
+  h1{
+    font-size: 60px;
+  }
+}
+
+#content{
+  color: #616161;
+  padding: 70px 0px;
+  .fa{
+    font-size: 70px;
+  }
+  p{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+  }
+}
+
+#feature-section{
+  h2{
+    font-family: 'latoblack' !important;
+    font-size: 30px;
+    color: #616161;
+  }
+  p{
+    font-size: 20px;
+    font-family: 'MYRIADPROREGULAR';
+  }
+}
+
+#contact-section{
+  background: #313131;
+  h2{
+    color: #e0e0e0;
+    font-size: 30px;
+  }
+  p{
+    color: #bebebe;
+    font-size: 20px;
+  }
+  .address{
+    color: #e0e0e0;
+    margin: 0 auto;
+    p{
+      font-size: 14px;
+    }
+    .fa{
+      color: $primary;
+    }
+  }
+  .bg-yelllow{
+    background: #F3B25B;
+    height: 30px;
+    width: 30px;
+    padding: 6px 0px;
+    border-radius: 50px;
+    color: #fff;
+  }
+  .bg-blue{
+    background: #5883C0;
+    height: 30px;
+    width: 30px;
+    padding: 6px 0px;
+    border-radius: 50px;
+    color: #fff;
+  }
+
+  .bg-sky{
+    background: #63BEE0;
+    height: 30px;
+    width: 30px;
+    padding: 6px 0px;
+    border-radius: 50px;
+    color: #fff;
+  }
+  .bg-purple{
+    background: #E9A0C4;
+    height: 30px;
+    width: 30px;
+    padding: 6px 0px;
+    border-radius: 50px;
+    color: #fff;
+  }
+  .bg-red{
+    background: #D35051;
+    height: 30px;
+    width: 30px;
+    padding: 6px 0px;
+    border-radius: 50px;
+    color: #fff;
+  }
+
+}
+#footer-section{
+  color: #bebebe;
+  background: #2C2C2C;
+}
+
+@media(min-width:992px ){
+  #contact-section{
+    .address{
+      color: #e0e0e0;
+      margin: 0 auto;
+      margin-left:105px;
+    }
+}
+}

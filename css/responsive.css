@@ -1,0 +1,254 @@
+/*
+=================
+ Desktop+++ viewport
+=================
+*/
+/*
+=================
+ Desktop viewport
+=================
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .section-padding {
+    padding: 35px 0; }
+  .section-header {
+    margin-bottom: 40px;
+    text-align: center; }
+  .navbar-nav {
+    margin: 15px  0; }
+    .navbar-nav li {
+      margin: 9px 0; }
+      .navbar-nav li a {
+        line-height: 0; }
+  .navbar-brand .logo {
+    padding: 0px !important;
+    font-size: 30px !important;
+    letter-spacing: 1.5px !important; }
+  .nav li a {
+    position: relative;
+    display: block;
+    padding: 15px 5px; }
+  .nav-area .navbar-brand {
+    padding: 20px 0px; }
+  .about-text-left {
+    margin-top: 40px; }
+    .about-text-left h2 {
+      text-align: center;
+      margin-bottom: 30px; }
+    .about-text-left h3 {
+      text-align: center; }
+    .about-text-left p {
+      text-align: center;
+      margin-bottom: 30px; }
+    .about-text-left a {
+      display: block;
+      text-align: center;
+      float: none;
+      margin-bottom: 0px; }
+  #about img {
+    margin-top: 30px;
+    height: 360px; }
+  .about-text-right {
+    margin-top: 40px; }
+  #skills h3 {
+    font-size: 25px; }
+  .por-text h2 {
+    margin-top: 20px; } }
+
+/*
+=================
+ Tablet Devices
+=================
+*/
+@media only screen and (max-width: 767px) {
+  .nav-area .navbar-brand {
+    padding: 05px 0px; }
+    .nav-area .navbar-brand .logo {
+      padding: 0px 10px;
+      font-size: 30px; }
+  .nav-area .navbar-nav {
+    margin: 0 auto;
+    display: inherit;
+    width: 200px;
+    background-color: transparent;
+    text-align: center; }
+    .nav-area .navbar-nav li {
+      float: left;
+      margin: 10px 0px;
+      display: inherit;
+      width: 100%; }
+  .fixed-top .navbar-collapse {
+    margin: 0 3%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 0px;
+    transition: .9s; }
+  .sticky_navigation {
+    height: 60px; }
+    .sticky_navigation .nav li a {
+      color: #ddd; }
+    .sticky_navigation .nav li.active a {
+      color: #E95D0C; }
+    .sticky_navigation .nav li.active::before {
+      border-top: 1px solid #E95D0C; }
+    .sticky_navigation .nav li.active::after {
+      border-bottom: 1px solid #E95D0C; }
+  .cd-words-wrapper b {
+    font-size: 40px; }
+  .about-text-left {
+    margin-top: 0px; }
+    .about-text-left h2 {
+      text-align: center;
+      margin-bottom: 5px; }
+    .about-text-left h3 {
+      text-align: center; }
+    .about-text-left p {
+      text-align: center;
+      margin-bottom: 15px; }
+    .about-text-left a {
+      display: block;
+      text-align: center;
+      float: none;
+      margin-bottom: 0px; }
+  #about img {
+    margin-top: 30px; }
+  .about-text-right {
+    margin-top: 40px; }
+  #skills h3 {
+    font-size: 25px; }
+  .services-area .section-header {
+    margin-bottom: 20px; }
+  .services-area .services-content h3 {
+    font-size: 22px; }
+  .por-text-details p {
+    font-size: 12px; }
+  .por-text h2 {
+    margin-top: 20px;
+    font-size: 18px; }
+  .white-popup {
+    padding: 10px;
+    max-width: 95%; }
+  .hovereffect .overlay {
+    padding: 2em; }
+  .hovereffect .overlay:before {
+    top: 13px;
+    right: 13px;
+    bottom: 13px;
+    left: 13px; }
+  .hovereffect h2 {
+    padding: 2% 0 10px 0; }
+  .block-quote p {
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 150%;
+    margin-bottom: 15px; } }
+
+/*
+=================
+ Phablet viewport
+=================
+*/
+@media only screen and (max-width: 575px) {
+  .section-padding {
+    padding: 30px 0; }
+  .section-header {
+    margin-top: 15px; }
+  .about-text-left {
+    margin-top: 25px; }
+    .about-text-left h2 {
+      text-align: center;
+      margin-bottom: 20px; }
+    .about-text-left h3 {
+      text-align: center; }
+    .about-text-left p {
+      text-align: center;
+      margin-bottom: 30px; }
+    .about-text-left a {
+      display: block;
+      text-align: center;
+      float: none;
+      margin-bottom: 20px; }
+  .about-text-right {
+    margin-top: 40px; }
+  #skills h3 {
+    font-size: 25px; }
+  #number-area .single-number .fa {
+    font-size: 27px; }
+  #number-area .single-number p {
+    font-size: 18px; }
+  #number-area .single-number .counter {
+    font-size: 24px; } }
+
+/*
+=================
+ Mobile viewport
+=================
+*/
+@media only screen and (max-width: 479px) {
+  .section-padding {
+    padding: 30px 0; }
+  .section-header {
+    margin-top: 15px; }
+  .welcome-text .intro h3 {
+    font-size: 16px !important;
+    padding-bottom: 20px; }
+  .welcome-text .intro h1 {
+    font-size: 30px !important; }
+  .welcome-text .intro .cd-words-wrapper b {
+    font-size: 27px; }
+  .mouse-scroll {
+    margin-top: 90px; }
+  .about-text-left {
+    margin-top: 25px; }
+    .about-text-left h2 {
+      font-size: 29px;
+      text-align: center;
+      margin-bottom: 20px; }
+    .about-text-left h3 {
+      text-align: center; }
+    .about-text-left p {
+      text-align: center;
+      margin-bottom: 30px; }
+    .about-text-left a {
+      display: block;
+      text-align: center;
+      float: none;
+      margin-bottom: 20px; }
+  .about-text-right {
+    margin-top: 40px; }
+  #skills h3 {
+    font-size: 25px; }
+  .services-area .single-services {
+    padding: 0px 20px; }
+  .services-area .section-header {
+    margin-bottom: 40px; }
+  #number-area .single-number .fa {
+    font-size: 25px; }
+  #number-area .single-number p {
+    font-size: 14px; }
+  #number-area .single-number .counter {
+    font-size: 25px; }
+  .por-text-details p {
+    font-size: 12px; }
+  .por-text h2 {
+    margin-top: 20px;
+    font-size: 18px; }
+  .white-popup {
+    padding: 10px;
+    max-width: 95%; }
+  .block-quote p {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 15px; }
+  .btn-send {
+    padding: 12px 15px;
+    font-size: 16px; }
+  .controls .form-control::-webkit-input-placeholder {
+    color: #999;
+    font-size: 11px; }
+  .controls .form-control::-moz-placeholder {
+    color: #999;
+    font-size: 11px; }
+  .controls .form-control:-ms-placeholder {
+    color: #999;
+    font-size: 11px; } }

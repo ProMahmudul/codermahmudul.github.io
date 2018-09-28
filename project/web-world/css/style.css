@@ -1,0 +1,107 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+#navhead {
+  background: #252323; }
+  #navhead .fa {
+    color: #c1c1c1;
+    font-size: 25px;
+    margin-left: 20px; }
+
+.navbar {
+  background: #fff; }
+  .navbar .nav-item {
+    margin-right: 10px; }
+    .navbar .nav-item .nav-link {
+      color: #8b8b8b;
+      font-size: 14px;
+      text-transform: uppercase;
+      border-bottom: 2px solid transparent; }
+    .navbar .nav-item .nav-link:hover {
+      border-bottom: 2px solid #00BAC6;
+      color: #00BAC6; }
+  .navbar .search input {
+    background: #fff url("../img/search.png") no-repeat scroll 170px center; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-img-1 {
+  background: url("../img/banner.jpg");
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url("../img/banner2.jpeg");
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url("../img/banner3.jpeg");
+  background-size: cover; }
+
+.carousel-img-4 {
+  background: url("../img/banner4.jpeg");
+  background-size: cover; }
+
+#showcase ol {
+  cursor: pointer; }
+
+#content-section h2 {
+  color: #818181;
+  font-size: 30px; }
+
+#content-section .contenttopp {
+  font-size: 15px;
+  color: #9a9a9a; }
+
+#content-section .fa {
+  font-size: 105px;
+  color: #CACACA; }
+
+#content-section .content-middle {
+  background: url("../img/bg.png") no-repeat bottom center; }
+  #content-section .content-middle p {
+    margin-bottom: 0; }
+  #content-section .content-middle .fa {
+    color: #00BAC6; }
+
+#content-section h3 {
+  font-size: 20px;
+  color: #7b7b7b; }
+
+#content-section p {
+  font-size: 14px;
+  color: #9a9a9a; }
+
+#blog {
+  background: #EEEEEE; }
+  #blog h4 {
+    font-size: 14px;
+    color: #717070; }
+  #blog p {
+    font-size: 14px;
+    color: #818181; }
+
+#contact-section {
+  background: #4C4D4D; }
+  #contact-section h4 {
+    font-size: 22px;
+    color: #fff; }
+  #contact-section p {
+    font-size: 14px;
+    color: #c1c1c1; }
+  #contact-section .big-bold {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f5f5f5; }
+  #contact-section .fa {
+    color: #00BAC6;
+    font-size: 15px; }
+
+#footer-section {
+  background: #272625;
+  color: #c1c1c1;
+  font-size: 14px; }
+  #footer-section .fa {
+    color: #c1c1c1;
+    font-size: 25px;
+    margin-left: 20px; }
